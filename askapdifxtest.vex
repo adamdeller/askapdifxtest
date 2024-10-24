@@ -1,0 +1,1065 @@
+VEX_rev = 1.5;
+*    SCHED vers: Release 11.5; September 2018
+*    VEX/SCHED:  1.5.87
+*    Other versions: Sched:  11.5  Plot: 1.06  JPL-ephem: 1.01
+*------------------------------------------------------------------------------
+$GLOBAL;
+     ref $EXPER = craftfrb;
+*                                                      +------------+
+*                         PI revision number:          |    1.0000  |
+*                                                      +------------+
+*    mode:       ASKAP 300 channel
+*------------------------------------------------------------------------------
+$EXPER;
+*
+def craftfrb;
+     exper_name = craftfrb;
+     exper_description = "craft";
+     PI_name = "A.T. Deller";
+     PI_email = adeller@astro.swin.edu.au;
+*    address:   Swinburne
+*                
+*               Australia
+*                
+*    phone:     +61-3-9214-5307 (w)
+*    during obs:+61-3-9214-5307 (w)
+*    fax:        
+*    notes:     ASKAP
+*
+*    year, doy: 2024, 288
+*    date     : Mon 14 Oct 2024
+*    MJD      : 60597
+     exper_nominal_start=2024y288d22h56m17s;
+     exper_nominal_stop=2024y288d22h56m37s;
+*
+     target_correlator = SOCORRO;
+*
+*    integr_time    :     2.000 s
+*    number_channels:    16
+*    number_antenna :  3
+*    cross_polarize : Yes
+*    weight_func    : UNIFORM
+*    distrib_medium : FTP
+*    distrib_format : FITS
+*    source_pos_cat : FROM .SUM FILE ONLY
+*    corr_notes : 
+*               This is special ASKAP correlation
+*
+enddef;
+*------------------------------------------------------------------------------
+$MODE;
+*
+def askap;
+     ref $PROCEDURES = Mode_01;
+     ref $FREQ = 1092.00MHz16x32MHz:A0:A1:A2:A3:A4:A5:A6:A7:A8:A9:AA:AB:AC:AD:AE:AF:AG:AH:AI:AJ:AK:AL:AM;
+     ref $IF = LO@2100MHzDPolNoTone:A0:A1:A2:A3:A4:A5:A6:A7:A8:A9:AA:AB:AC:AD:AE:AF:AG:AH:AI:AJ:AK:AL:AM;
+     ref $BBC = 16BBCs:A0:A1:A2:A3:A4:A5:A6:A7:A8:A9:AA:AB:AC:AD:AE:AF:AG:AH:AI:AJ:AK:AL:AM;
+     ref $TRACKS = VDIF.16Ch2bit1to1:A0:A1:A2:A3:A4:A5:A6:A7:A8:A9:AA:AB:AC:AD:AE:AF:AG:AH:AI:AJ:AK:AL:AM;
+*    ref $HEAD_POS = DiskVoid <= obsolete definition
+     ref $ROLL = NoRoll:A0:A1:A2:A3:A4:A5:A6:A7:A8:A9:AA:AB:AC:AD:AE:AF:AG:AH:AI:AJ:AK:AL:AM;
+*    ref $PASS_ORDER = DiskVoid <= obsolete definition
+     ref $PHASE_CAL_DETECT = NoDetect:A0:A1:A2:A3:A4:A5:A6:A7:A8:A9:AA:AB:AC:AD:AE:AF:AG:AH:AI:AJ:AK:AL:AM;
+enddef;
+*------------------------------------------------------------------------------
+$STATION;
+*
+def A0;
+     ref $SITE = ASKAP06;
+     ref $ANTENNA = ASKAP06;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def A1;
+     ref $SITE = ASKAP07;
+     ref $ANTENNA = ASKAP07;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def A2;
+     ref $SITE = ASKAP08;
+     ref $ANTENNA = ASKAP08;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def A3;
+     ref $SITE = ASKAP11;
+     ref $ANTENNA = ASKAP11;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def A4;
+     ref $SITE = ASKAP13;
+     ref $ANTENNA = ASKAP13;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def A5;
+     ref $SITE = ASKAP14;
+     ref $ANTENNA = ASKAP14;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def A6;
+     ref $SITE = ASKAP15;
+     ref $ANTENNA = ASKAP15;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def A7;
+     ref $SITE = ASKAP16;
+     ref $ANTENNA = ASKAP16;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def A8;
+     ref $SITE = ASKAP17;
+     ref $ANTENNA = ASKAP17;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def A9;
+     ref $SITE = ASKAP18;
+     ref $ANTENNA = ASKAP18;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def AA;
+     ref $SITE = ASKAP19;
+     ref $ANTENNA = ASKAP19;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def AB;
+     ref $SITE = ASKAP20;
+     ref $ANTENNA = ASKAP20;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def AC;
+     ref $SITE = ASKAP21;
+     ref $ANTENNA = ASKAP21;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def AD;
+     ref $SITE = ASKAP24;
+     ref $ANTENNA = ASKAP24;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def AE;
+     ref $SITE = ASKAP25;
+     ref $ANTENNA = ASKAP25;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def AF;
+     ref $SITE = ASKAP26;
+     ref $ANTENNA = ASKAP26;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def AG;
+     ref $SITE = ASKAP27;
+     ref $ANTENNA = ASKAP27;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def AH;
+     ref $SITE = ASKAP28;
+     ref $ANTENNA = ASKAP28;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def AI;
+     ref $SITE = ASKAP29;
+     ref $ANTENNA = ASKAP29;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def AJ;
+     ref $SITE = ASKAP30;
+     ref $ANTENNA = ASKAP30;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def AK;
+     ref $SITE = ASKAP33;
+     ref $ANTENNA = ASKAP33;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def AL;
+     ref $SITE = ASKAP34;
+     ref $ANTENNA = ASKAP34;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*
+def AM;
+     ref $SITE = ASKAP36;
+     ref $ANTENNA = ASKAP36;
+     ref $DAS = 2RDBE2+NONE<;
+enddef;
+*------------------------------------------------------------------------------
+$PROCEDURES;
+*
+def Mode_01;
+     procedure_name_prefix =  "01";
+     tape_change =  420 sec;
+     headstack_motion =    6 sec;
+     new_source_command =    5 sec;
+     new_tape_setup =   20 sec;
+     setup_always = on :  20 sec;
+     parity_check = off : 100 sec;
+     tape_prepass = off : 600 sec;
+     preob_cal  = on :  10 sec : preob;
+     midob_cal  = on :  15 sec : midob;
+     postob_cal = on :   0 sec : postob;
+enddef;
+*------------------------------------------------------------------------------
+$SITE;
+*
+def ASKAP06;
+     site_type = fixed;
+     site_name = ASKAP06;
+     site_ID = A0;
+*    elev=  368.26 long=-116:37:58. lat=-26:41:45.6
+     site_position =-2556231.66817 m: 5097388.01522 m:-2848327.62191 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP07;
+     site_type = fixed;
+     site_name = ASKAP07;
+     site_ID = A1;
+*    elev=  369.78 long=-116:38:01. lat=-26:41:52.8
+     site_position =-2556282.79069 m: 5097252.12618 m:-2848526.97782 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP08;
+     site_type = fixed;
+     site_name = ASKAP08;
+     site_ID = A2;
+*    elev=  371.18 long=-116:37:51. lat=-26:41:57.0
+     site_position =-2556006.28518 m: 5097327.96724 m:-2848641.76591 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP11;
+     site_type = fixed;
+     site_name = ASKAP11;
+     site_ID = A3;
+*    elev=  367.04 long=-116:38:02. lat=-26:41:38.2
+     site_position =-2556396.03999 m: 5097419.07828 m:-2848123.14234 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP13;
+     site_type = fixed;
+     site_name = ASKAP13;
+     site_ID = A4;
+*    elev=  373.12 long=-116:38:09. lat=-26:42:01.1
+     site_position =-2556407.32626 m: 5097064.98196 m:-2848756.02731 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP14;
+     site_type = fixed;
+     site_name = ASKAP14;
+     site_ID = A5;
+*    elev=  371.50 long=-116:37:52. lat=-26:42:04.2
+     site_position =-2555972.78185 m: 5097233.67466 m:-2848839.91220 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP15;
+     site_type = fixed;
+     site_name = ASKAP15;
+     site_ID = A6;
+*    elev=  367.15 long=-116:37:26. lat=-26:41:54.3
+     site_position =-2555393.77285 m: 5097672.55076 m:-2848566.14558 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP16;
+     site_type = fixed;
+     site_name = ASKAP16;
+     site_ID = A7;
+*    elev=  366.45 long=-116:37:30. lat=-26:41:37.3
+     site_position =-2555592.92521 m: 5097835.02848 m:-2848098.26137 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP17;
+     site_type = fixed;
+     site_name = ASKAP17;
+     site_ID = A8;
+*    elev=  365.46 long=-116:37:35. lat=-26:41:32.2
+     site_position =-2555749.03969 m: 5097834.52120 m:-2847957.81338 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP18;
+     site_type = fixed;
+     site_name = ASKAP18;
+     site_ID = A9;
+*    elev=  366.84 long=-116:37:49. lat=-26:41:37.0
+     site_position =-2556068.18397 m: 5097601.41105 m:-2848090.83288 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP19;
+     site_type = fixed;
+     site_name = ASKAP19;
+     site_ID = AA;
+*    elev=  366.03 long=-116:38:01. lat=-26:41:33.6
+     site_position =-2556379.59433 m: 5097497.27748 m:-2847996.55177 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP20;
+     site_type = fixed;
+     site_name = ASKAP20;
+     site_ID = AB;
+*    elev=  367.52 long=-116:38:11. lat=-26:41:39.0
+     site_position =-2556604.06996 m: 5097302.06094 m:-2848146.77618 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP21;
+     site_type = fixed;
+     site_name = ASKAP21;
+     site_ID = AC;
+*    elev=  367.13 long=-116:38:18. lat=-26:41:38.8
+     site_position =-2556766.05699 m: 5097223.67586 m:-2848140.81544 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP24;
+     site_type = fixed;
+     site_name = ASKAP24;
+     site_ID = AD;
+*    elev=  371.56 long=-116:37:55. lat=-26:42:21.0
+     site_position =-2555959.33442 m: 5096979.55624 m:-2849303.62346 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP25;
+     site_type = fixed;
+     site_name = ASKAP25;
+     site_ID = AE;
+*    elev=  365.93 long=-116:37:31. lat=-26:41:27.9
+     site_position =-2555671.56308 m: 5097939.84786 m:-2847840.63086 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP26;
+     site_type = fixed;
+     site_name = ASKAP26;
+     site_ID = AF;
+*    elev=  364.66 long=-116:37:39. lat=-26:41:27.5
+     site_position =-2555870.78708 m: 5097845.41084 m:-2847828.12830 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP27;
+     site_type = fixed;
+     site_name = ASKAP27;
+     site_ID = AG;
+*    elev=  362.78 long=-116:37:14. lat=-26:41:18.5
+     site_position =-2555320.59476 m: 5098257.81416 m:-2847581.05325 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP28;
+     site_type = fixed;
+     site_name = ASKAP28;
+     site_ID = AH;
+*    elev=  362.53 long=-116:38:02. lat=-26:41:10.3
+     site_position =-2556552.96109 m: 5097767.17872 m:-2847354.23964 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP29;
+     site_type = fixed;
+     site_name = ASKAP29;
+     site_ID = AI;
+*    elev=  364.52 long=-116:38:13. lat=-26:41:24.8
+     site_position =-2556745.52976 m: 5097448.32376 m:-2847753.90743 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP30;
+     site_type = fixed;
+     site_name = ASKAP30;
+     site_ID = AJ;
+*    elev=  366.87 long=-116:38:37. lat=-26:41:23.4
+     site_position =-2557348.34201 m: 5097170.09587 m:-2847716.18015 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP33;
+     site_type = fixed;
+     site_name = ASKAP33;
+     site_ID = AK;
+*    elev=  373.31 long=-116:37:53. lat=-26:43:20.6
+     site_position =-2555538.11876 m: 5096270.68839 m:-2850941.80787 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP34;
+     site_type = fixed;
+     site_name = ASKAP34;
+     site_ID = AL;
+*    elev=  362.89 long=-116:36:05. lat=-26:42:54.1
+     site_position =-2553016.67340 m: 5097932.88429 m:-2850210.60254 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*
+def ASKAP36;
+     site_type = fixed;
+     site_name = ASKAP36;
+     site_ID = AM;
+*    elev=  356.56 long=-116:37:54. lat=-26:40:05.5
+     site_position =-2556754.25867 m: 5098661.28844 m:-2845570.66143 m;
+     site_velocity =  0.000000   m/yr:  0.000000   m/yr:  0.000000  m/yr;
+*    First line below is VEX standard format.  Use only when readers are ready.
+*    site_position_epoch = 2008y001d;
+     site_position_epoch =   54466;
+     horizon_map_az =  0.0 deg:  5.0: 10.0: 15.0: 25.0: 30.0: 40.0: 45.0: 70.0:
+                                75.0:120.0:125.0:130.0:135.0:155.0:160.0:185.0:
+                               190.0:195.0:220.0:225.0:235.0:240.0:245.0:250.0:
+                               255.0:265.0:270.0:275.0:300.0:305.0:310.0:315.0:
+                               330.0:335.0:340.0:345.0:350.0:360.0;
+     horizon_map_el =  2.0 deg:  2.0:  3.0:  2.0:  2.0:  3.0:  3.0:  4.0:  4.0:
+                                 5.0:  5.0:  4.0:  4.0:  3.0:  3.0:  2.0:  2.0:
+                                 3.0:  4.0:  4.0:  3.0:  3.0:  4.0:  4.0:  5.0:
+                                 6.0:  6.0:  5.0:  6.0:  6.0:  5.0:  6.0:  5.0:
+                                 5.0:  4.0:  4.0:  3.0:  2.0:  2.0;
+enddef;
+*------------------------------------------------------------------------------
+$ANTENNA;
+*
+def ASKAP06;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP07;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP08;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP11;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP13;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP14;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP15;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP16;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP17;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP18;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP19;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP20;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP21;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP24;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP25;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP26;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP27;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP28;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP29;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP30;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP33;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP34;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*
+def ASKAP36;
+     axis_type = az : el;
+     antenna_motion = el :  29.0 deg/min :  6 sec;  *    0.250 deg/sec/sec
+     antenna_motion = az :  83.6 deg/min :  6 sec;  *    0.750 deg/sec/sec
+     axis_offset =    0.00000 m;
+enddef;
+*------------------------------------------------------------------------------
+$DAS;
+*
+def 2RDBE2+NONE<;
+     record_transport_type = Mark5C;
+     electronics_rack_type = RDBE2;
+     number_drives = 2;
+     headstack = 1 :            : 0 ;
+     headstack = 2 :            : 1 ;
+     tape_motion = adaptive : 0 min: 0 min: 10 sec;
+enddef;
+*------------------------------------------------------------------------------
+$SOURCE;
+*
+def CRAFTSRC;
+     source_name = CRAFTSRC;
+*    this source had calibrator code:  
+*    Beam centre for dumped voltage data
+     ra = 04h08m20.3800000s; dec = -65d45'09.080000"; ref_coord_frame = J2000;
+*    ra = 04h07m58.0699159s; dec = -65d52'59.175246"; ref_coord_frame = B1950;
+*    ra = 04h08m34.8108636s; dec = -65d40'55.083195"; ref_coord_frame = Date;
+enddef;
+*------------------------------------------------------------------------------
+$FREQ;
+*
+def 1092.00MHz16x32MHz;
+* mode =  1    stations =A0:A1:A2:A3:A4:A5:A6:A7:A8:A9:AA:AB:AC:AD:AE:AF:AG:AH:AI:AJ:AK:AL:AM
+sample_rate =  2.370370370370370 Ms/sec;  * (2bits/sample)
+     chan_def = : 708.592592592593 MHz : L :   1.185185185185185 MHz : &CH01 : &BBC01 : &U_Cal;
+     chan_def = : 709.592592592593 MHz : L :   1.185185185185185 MHz : &CH02 : &BBC02 : &U_Cal;
+     chan_def = : 710.592592592593 MHz : L :   1.185185185185185 MHz : &CH03 : &BBC03 : &U_Cal;
+     chan_def = : 711.592592592593 MHz : L :   1.185185185185185 MHz : &CH04 : &BBC04 : &U_Cal;
+     chan_def = : 716.592592592593 MHz : L :   1.185185185185185 MHz : &CH05 : &BBC05 : &U_Cal;
+     chan_def = : 717.592592592593 MHz : L :   1.185185185185185 MHz : &CH06 : &BBC06 : &U_Cal;
+     chan_def = : 718.592592592593 MHz : L :   1.185185185185185 MHz : &CH07 : &BBC07 : &U_Cal;
+     chan_def = : 719.592592592593 MHz : L :   1.185185185185185 MHz : &CH08 : &BBC08 : &U_Cal;
+     chan_def = : 708.592592592593 MHz : L :   1.185185185185185 MHz : &CH09 : &BBC09 : &U_Cal;
+     chan_def = : 709.592592592593 MHz : L :   1.185185185185185 MHz : &CH10 : &BBC10 : &U_Cal;
+     chan_def = : 710.592592592593 MHz : L :   1.185185185185185 MHz : &CH11 : &BBC11 : &U_Cal;
+     chan_def = : 711.592592592593 MHz : L :   1.185185185185185 MHz : &CH12 : &BBC12 : &U_Cal;
+     chan_def = : 716.592592592593 MHz : L :   1.185185185185185 MHz : &CH13 : &BBC13 : &U_Cal;
+     chan_def = : 717.592592592593 MHz : L :   1.185185185185185 MHz : &CH14 : &BBC14 : &U_Cal;
+     chan_def = : 718.592592592593 MHz : L :   1.185185185185185 MHz : &CH15 : &BBC15 : &U_Cal;
+     chan_def = : 719.592592592593 MHz : L :   1.185185185185185 MHz : &CH16 : &BBC16 : &U_Cal;
+enddef;
+*------------------------------------------------------------------------------
+$IF;
+*
+def LO@2100MHzDPolNoTone;
+* mode =  1    stations =A0:A1:A2:A3:A4:A5:A6:A7:A8:A9:AA:AB:AC:AD:AE:AF:AG:AH:AI:AJ:AK:AL:AM
+     if_def = &IF_C : C : X :  2100.00 MHz : L ; * PCall off!   0.0   0.0  20cm     0 NA
+     if_def = &IF_A : A : Y :  2100.00 MHz : L ; * PCall off!   0.0   0.0  20cm     0 NA
+enddef;
+*------------------------------------------------------------------------------
+$BBC;
+*
+def 16BBCs;
+* mode =  1    stations =A0:A1:A2:A3:A4:A5:A6:A7:A8:A9:AA:AB:AC:AD:AE:AF:AG:AH:AI:AJ:AK:AL:AM
+     BBC_assign = &BBC01 :  1 : &IF_C;
+     BBC_assign = &BBC02 :  2 : &IF_C;
+     BBC_assign = &BBC03 :  3 : &IF_C;
+     BBC_assign = &BBC04 :  4 : &IF_C;
+     BBC_assign = &BBC05 :  5 : &IF_C;
+     BBC_assign = &BBC06 :  6 : &IF_C;
+     BBC_assign = &BBC07 :  7 : &IF_C;
+     BBC_assign = &BBC08 :  8 : &IF_C;
+     BBC_assign = &BBC09 :  9 : &IF_A;
+     BBC_assign = &BBC10 : 10 : &IF_A;
+     BBC_assign = &BBC11 : 11 : &IF_A;
+     BBC_assign = &BBC12 : 12 : &IF_A;
+     BBC_assign = &BBC13 : 13 : &IF_A;
+     BBC_assign = &BBC14 : 14 : &IF_A;
+     BBC_assign = &BBC15 : 15 : &IF_A;
+     BBC_assign = &BBC16 : 16 : &IF_A;
+enddef;
+*------------------------------------------------------------------------------
+$PHASE_CAL_DETECT;
+*
+def NoDetect;
+* mode =  1    stations =A0:A1:A2:A3:A4:A5:A6:A7:A8:A9:AA:AB:AC:AD:AE:AF:AG:AH:AI:AJ:AK:AL:AM
+     phase_cal_detect = &NoCal;
+enddef;
+*------------------------------------------------------------------------------
+$TRACKS;
+*
+def VDIF.16Ch2bit1to1;
+* mode =  1    stations =A0:A1:A2:A3:A4:A5:A6:A7:A8:A9:AA:AB:AC:AD:AE:AF:AG:AH:AI:AJ:AK:AL:AM
+*    firmware_type = RDBE_PFB;
+*    format = VDIF, and fan-out = 1
+*    mode requires  64.00Mb/s/tr; stations using disks
+     track_frame_format = VDIF;
+     fanout_def =   : &CH01 : sign : 1:  2;
+     fanout_def =   : &CH01 :  mag : 1:  3;
+     fanout_def =   : &CH02 : sign : 1:  4;
+     fanout_def =   : &CH02 :  mag : 1:  5;
+     fanout_def =   : &CH03 : sign : 1:  6;
+     fanout_def =   : &CH03 :  mag : 1:  7;
+     fanout_def =   : &CH04 : sign : 1:  8;
+     fanout_def =   : &CH04 :  mag : 1:  9;
+     fanout_def =   : &CH05 : sign : 1: 10;
+     fanout_def =   : &CH05 :  mag : 1: 11;
+     fanout_def =   : &CH06 : sign : 1: 12;
+     fanout_def =   : &CH06 :  mag : 1: 13;
+     fanout_def =   : &CH07 : sign : 1: 14;
+     fanout_def =   : &CH07 :  mag : 1: 15;
+     fanout_def =   : &CH08 : sign : 1: 16;
+     fanout_def =   : &CH08 :  mag : 1: 17;
+     fanout_def =   : &CH09 : sign : 1: 18;
+     fanout_def =   : &CH09 :  mag : 1: 19;
+     fanout_def =   : &CH10 : sign : 1: 20;
+     fanout_def =   : &CH10 :  mag : 1: 21;
+     fanout_def =   : &CH11 : sign : 1: 22;
+     fanout_def =   : &CH11 :  mag : 1: 23;
+     fanout_def =   : &CH12 : sign : 1: 24;
+     fanout_def =   : &CH12 :  mag : 1: 25;
+     fanout_def =   : &CH13 : sign : 1: 26;
+     fanout_def =   : &CH13 :  mag : 1: 27;
+     fanout_def =   : &CH14 : sign : 1: 28;
+     fanout_def =   : &CH14 :  mag : 1: 29;
+     fanout_def =   : &CH15 : sign : 1: 30;
+     fanout_def =   : &CH15 :  mag : 1: 31;
+     fanout_def =   : &CH16 : sign : 1: 32;
+     fanout_def =   : &CH16 :  mag : 1: 33;
+enddef;
+*------------------------------------------------------------------------------
+$HEAD_POS;
+def DiskVoid;
+* mode =  1    stations =A0:A1:A2:A3:A4:A5:A6:A7:A8:A9:AA:AB:AC:AD:AE:AF:AG:AH:AI:AJ:AK:AL:AM
+*     Head positions irrelevant for Disk: empty def
+enddef;
+*------------------------------------------------------------------------------
+$PASS_ORDER;
+*
+def DiskVoid;
+* mode =  1    stations =A0:A1:A2:A3:A4:A5:A6:A7:A8:A9:AA:AB:AC:AD:AE:AF:AG:AH:AI:AJ:AK:AL:AM
+*     Pass orders irrelevant for Disk: empty def
+enddef;
+*------------------------------------------------------------------------------
+$ROLL;
+*
+def NoRoll;
+* mode =  1    stations =A0:A1:A2:A3:A4:A5:A6:A7:A8:A9:AA:AB:AC:AD:AE:AF:AG:AH:AI:AJ:AK:AL:AM
+*    barrel-roll set to 'roll_off', so reverse-roll by  0 (1 head)
+     roll = off;
+enddef;
+*------------------------------------------------------------------------------
+$SCHED;
+* schedule section for experiment craftfrb
+* craft                                                                   
+scan No0001;
+     start=2024y288d22h56m17s; mode=askap; source=CRAFTSRC;
+*              :data_good:data_stop:goto_foot: pass:  wrap :driv:tape at
+     station=A0:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=A1:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=A2:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=A3:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=A4:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=A5:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=A6:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=A7:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=A8:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=A9:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=AA:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=AB:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=AC:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=AD:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=AE:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=AF:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=AG:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=AH:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=AI:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=AJ:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=AK:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=AL:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+     station=AM:    0 sec:   20 sec:    0.000 GB:   :       : 1;
+endscan;

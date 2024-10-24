@@ -1,0 +1,314 @@
+2024-10-24 14:54:31,811 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 0 is running on host dave1
+2024-10-24 14:54:31,812 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 0 is about to process input file
+2024-10-24 14:54:31,812 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to process the input file...
+2024-10-24 14:54:31,812 DiFXAlert INFO    MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 4 is running on host dave1
+2024-10-24 14:54:31,812 DiFXAlert INFO    MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 4 is about to process input file
+2024-10-24 14:54:31,812 DiFXAlert INFO    MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 2 is running on host dave1
+2024-10-24 14:54:31,813 DiFXAlert INFO    MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 2 is about to process input file
+2024-10-24 14:54:31,813 DiFXAlert INFO    MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 8 is running on host dave1
+2024-10-24 14:54:31,813 DiFXAlert INFO    MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 8 is about to process input file
+2024-10-24 14:54:31,813 DiFXAlert INFO    MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 6 is running on host dave1
+2024-10-24 14:54:31,813 DiFXAlert INFO    MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 6 is about to process input file
+2024-10-24 14:54:31,813 DiFXAlert VERBOSE MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to process the input file...
+2024-10-24 14:54:31,813 DiFXAlert INFO    MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 1 is running on host dave1
+2024-10-24 14:54:31,813 DiFXAlert INFO    MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 1 is about to process input file
+2024-10-24 14:54:31,814 DiFXAlert VERBOSE MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to process the input file...
+2024-10-24 14:54:31,814 DiFXAlert INFO    MPI[10] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 10 is running on host dave1
+2024-10-24 14:54:31,814 DiFXAlert INFO    MPI[10] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 10 is about to process input file
+2024-10-24 14:54:31,814 DiFXAlert VERBOSE MPI[10] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to process the input file...
+2024-10-24 14:54:31,814 DiFXAlert INFO    MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 3 is running on host dave1
+2024-10-24 14:54:31,815 DiFXAlert INFO    MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 3 is about to process input file
+2024-10-24 14:54:31,815 DiFXAlert VERBOSE MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to process the input file...
+2024-10-24 14:54:31,815 DiFXAlert INFO    MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 5 is running on host dave1
+2024-10-24 14:54:31,815 DiFXAlert INFO    MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 5 is about to process input file
+2024-10-24 14:54:31,815 DiFXAlert VERBOSE MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to process the input file...
+2024-10-24 14:54:31,815 DiFXAlert INFO    MPI[ 9] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 9 is running on host dave1
+2024-10-24 14:54:31,816 DiFXAlert INFO    MPI[ 9] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 9 is about to process input file
+2024-10-24 14:54:31,816 DiFXAlert VERBOSE MPI[ 9] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to process the input file...
+2024-10-24 14:54:31,816 DiFXAlert INFO    MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 7 is running on host dave1
+2024-10-24 14:54:31,816 DiFXAlert INFO    MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI Process 7 is about to process input file
+2024-10-24 14:54:31,816 DiFXAlert VERBOSE MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to process the input file...
+2024-10-24 14:54:31,817 DiFXAlert VERBOSE MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to process the input file...
+2024-10-24 14:54:31,817 DiFXAlert VERBOSE MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to process the input file...
+2024-10-24 14:54:31,817 DiFXAlert VERBOSE MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to process the input file...
+2024-10-24 14:54:31,874 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputDIFX VERSION = DiFX-trunk
+2024-10-24 14:54:31,874 DiFXAlert INFO    MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputDIFX VERSION = DiFX-trunk
+2024-10-24 14:54:31,875 DiFXAlert INFO    MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputDIFX VERSION = DiFX-trunk
+2024-10-24 14:54:31,875 DiFXAlert INFO    MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputDIFX VERSION = DiFX-trunk
+2024-10-24 14:54:31,875 DiFXAlert INFO    MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputDIFX VERSION = DiFX-trunk
+2024-10-24 14:54:31,875 DiFXAlert INFO    MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputDIFX VERSION = DiFX-trunk
+2024-10-24 14:54:31,875 DiFXAlert INFO    MPI[10] dave1     askapdifxtest_1 askapdifxtest_1.inputDIFX VERSION = DiFX-trunk
+2024-10-24 14:54:31,876 DiFXAlert INFO    MPI[ 9] dave1     askapdifxtest_1 askapdifxtest_1.inputDIFX VERSION = DiFX-trunk
+2024-10-24 14:54:31,876 DiFXAlert INFO    MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputDIFX VERSION = DiFX-trunk
+2024-10-24 14:54:31,876 DiFXAlert INFO    MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputDIFX VERSION = DiFX-trunk
+2024-10-24 14:54:31,876 DiFXAlert INFO    MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputDIFX VERSION = DiFX-trunk
+2024-10-24 14:54:31,884 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputConfig[0] datastream[0] had its array stride length automatically set to 16 based on nchan = 128
+2024-10-24 14:54:31,884 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputConfig[0] datastream[1] had its array stride length automatically set to 16 based on nchan = 128
+2024-10-24 14:54:31,887 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputConfig[0] datastream[2] had its array stride length automatically set to 16 based on nchan = 128
+2024-10-24 14:54:31,887 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputConfig[0] datastream[3] had its array stride length automatically set to 16 based on nchan = 128
+2024-10-24 14:54:31,887 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputConfig[0] datastream[4] had its array stride length automatically set to 16 based on nchan = 128
+2024-10-24 14:54:31,887 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputConfig[0] datastream[5] had its array stride length automatically set to 16 based on nchan = 128
+2024-10-24 14:54:31,888 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputConfig[0] datastream[6] had its array stride length automatically set to 16 based on nchan = 128
+2024-10-24 14:54:31,888 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputConfig[0] datastream[7] had its array stride length automatically set to 16 based on nchan = 128
+2024-10-24 14:54:31,888 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputConfig[0] had its xmac stride length automatically set to 128 based on numbers of output channels
+2024-10-24 14:54:31,888 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputConfig[0] had its rotate stride length automatically set to 16 based on xmacstridelen = 128
+2024-10-24 14:54:31,892 DiFXAlert INFO    MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputFinished loading configuration
+2024-10-24 14:54:31,892 DiFXAlert INFO    MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputFinished loading configuration
+2024-10-24 14:54:31,892 DiFXAlert INFO    MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputFinished loading configuration
+2024-10-24 14:54:31,892 DiFXAlert INFO    MPI[ 9] dave1     askapdifxtest_1 askapdifxtest_1.inputFinished loading configuration
+2024-10-24 14:54:31,893 DiFXAlert INFO    MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputFinished loading configuration
+2024-10-24 14:54:31,893 DiFXAlert INFO    MPI[10] dave1     askapdifxtest_1 askapdifxtest_1.inputFinished loading configuration
+2024-10-24 14:54:31,893 DiFXAlert INFO    MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputFinished loading configuration
+2024-10-24 14:54:31,894 DiFXAlert INFO    MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputFinished loading configuration
+2024-10-24 14:54:31,895 DiFXAlert INFO    MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputFinished loading configuration
+2024-10-24 14:54:31,895 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputConfig[0] had its guardns automatically set to 3383 since it was not set in the configuration file
+2024-10-24 14:54:31,895 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputFinished loading configuration
+2024-10-24 14:54:31,903 DiFXAlert INFO    MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputFinished loading configuration
+2024-10-24 14:54:31,904 DiFXAlert VERBOSE MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputOpening Mk5DataStream
+2024-10-24 14:54:31,904 DiFXAlert INFO    MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to allocate 1548288 + 48395 bytes in datastream databuffer
+2024-10-24 14:54:31,904 DiFXAlert VERBOSE MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputOpening Mk5DataStream
+2024-10-24 14:54:31,905 DiFXAlert INFO    MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to allocate 1548288 + 48395 bytes in datastream databuffer
+2024-10-24 14:54:31,905 DiFXAlert VERBOSE MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputOpening Mk5DataStream
+2024-10-24 14:54:31,905 DiFXAlert INFO    MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to allocate 1548288 + 48395 bytes in datastream databuffer
+2024-10-24 14:54:31,905 DiFXAlert VERBOSE MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputOpening Mk5DataStream
+2024-10-24 14:54:31,905 DiFXAlert INFO    MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to allocate 1548288 + 48395 bytes in datastream databuffer
+2024-10-24 14:54:31,905 DiFXAlert VERBOSE MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputOpening Mk5DataStream
+2024-10-24 14:54:31,905 DiFXAlert INFO    MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to allocate 1548288 + 48395 bytes in datastream databuffer
+2024-10-24 14:54:31,905 DiFXAlert VERBOSE MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputOpening Mk5DataStream
+2024-10-24 14:54:31,905 DiFXAlert INFO    MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to allocate 1548288 + 48395 bytes in datastream databuffer
+2024-10-24 14:54:31,906 DiFXAlert VERBOSE MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputOpening Mk5DataStream
+2024-10-24 14:54:31,906 DiFXAlert INFO    MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to allocate 1548288 + 48395 bytes in datastream databuffer
+2024-10-24 14:54:31,906 DiFXAlert VERBOSE MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputOpening Mk5DataStream
+2024-10-24 14:54:31,906 DiFXAlert INFO    MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputAbout to allocate 1548288 + 48395 bytes in datastream databuffer
+2024-10-24 14:54:31,926 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputSTARTING mpifxcorr version 2.9
+2024-10-24 14:54:31,926 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputFor Visibility 0, offsetnsperintegration is 0, subintns is 13824000, and configindex is now 0
+2024-10-24 14:54:31,926 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputFor Visibility 1, offsetnsperintegration is 0, subintns is 13824000, and configindex is now 0
+2024-10-24 14:54:31,926 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputFor Visibility 2, offsetnsperintegration is 0, subintns is 13824000, and configindex is now 0
+2024-10-24 14:54:31,926 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputFor Visibility 3, offsetnsperintegration is 0, subintns is 13824000, and configindex is now 0
+2024-10-24 14:54:31,927 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputFor Visibility 4, offsetnsperintegration is 0, subintns is 13824000, and configindex is now 0
+2024-10-24 14:54:31,927 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputFor Visibility 5, offsetnsperintegration is 0, subintns is 13824000, and configindex is now 0
+2024-10-24 14:54:31,927 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputFor Visibility 6, offsetnsperintegration is 0, subintns is 13824000, and configindex is now 0
+2024-10-24 14:54:31,927 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputFor Visibility 7, offsetnsperintegration is 0, subintns is 13824000, and configindex is now 0
+2024-10-24 14:54:31,956 DiFXAlert INFO    MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputEstimated memory usage by Datastream: 1.72628 MB
+2024-10-24 14:54:31,956 DiFXAlert VERBOSE MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 8 has started execution
+2024-10-24 14:54:31,956 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputEstimated memory usage by FXManager: 3.84298 MB
+2024-10-24 14:54:31,956 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputHello World, I am the FxManager
+2024-10-24 14:54:31,956 DiFXAlert INFO    MPI[10] dave1     askapdifxtest_1 askapdifxtest_1.inputEstimated memory usage by Core: 2.38309 MB
+2024-10-24 14:54:31,956 DiFXAlert VERBOSE MPI[10] dave1     askapdifxtest_1 askapdifxtest_1.inputCore 10 has started executing!!! Numprocessthreads is 2
+2024-10-24 14:54:31,957 DiFXAlert INFO    MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputEstimated memory usage by Datastream: 1.72628 MB
+2024-10-24 14:54:31,957 DiFXAlert VERBOSE MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 4 has started execution
+2024-10-24 14:54:31,957 DiFXAlert INFO    MPI[ 9] dave1     askapdifxtest_1 askapdifxtest_1.inputEstimated memory usage by Core: 2.38309 MB
+2024-10-24 14:54:31,957 DiFXAlert VERBOSE MPI[ 9] dave1     askapdifxtest_1 askapdifxtest_1.inputCore 9 has started executing!!! Numprocessthreads is 2
+2024-10-24 14:54:31,957 DiFXAlert INFO    MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputEstimated memory usage by Datastream: 1.72628 MB
+2024-10-24 14:54:31,957 DiFXAlert VERBOSE MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 6 has started execution
+2024-10-24 14:54:31,958 DiFXAlert INFO    MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputEstimated memory usage by Datastream: 1.72628 MB
+2024-10-24 14:54:31,958 DiFXAlert VERBOSE MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 3 has started execution
+2024-10-24 14:54:31,958 DiFXAlert INFO    MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputEstimated memory usage by Datastream: 1.72628 MB
+2024-10-24 14:54:31,958 DiFXAlert INFO    MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputEstimated memory usage by Datastream: 1.72628 MB
+2024-10-24 14:54:31,958 DiFXAlert INFO    MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputEstimated memory usage by Datastream: 1.72628 MB
+2024-10-24 14:54:31,958 DiFXAlert INFO    MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputEstimated memory usage by Datastream: 1.72628 MB
+2024-10-24 14:54:31,962 DiFXAlert VERBOSE MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 5 has started execution
+2024-10-24 14:54:31,962 DiFXAlert VERBOSE MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 5 started initialising memory buffer
+2024-10-24 14:54:31,962 DiFXAlert VERBOSE MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 7 has started execution
+2024-10-24 14:54:31,963 DiFXAlert VERBOSE MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 7 started initialising memory buffer
+2024-10-24 14:54:31,963 DiFXAlert VERBOSE MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 2 has started execution
+2024-10-24 14:54:31,963 DiFXAlert VERBOSE MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 2 started initialising memory buffer
+2024-10-24 14:54:31,963 DiFXAlert VERBOSE MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 1 has started execution
+2024-10-24 14:54:31,963 DiFXAlert VERBOSE MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 1 started initialising memory buffer
+2024-10-24 14:54:31,963 DiFXAlert VERBOSE MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 4 started initialising memory buffer
+2024-10-24 14:54:31,963 DiFXAlert VERBOSE MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 6 started initialising memory buffer
+2024-10-24 14:54:31,963 DiFXAlert VERBOSE MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 8 started initialising memory buffer
+2024-10-24 14:54:31,963 DiFXAlert VERBOSE MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 3 started initialising memory buffer
+2024-10-24 14:54:31,972 DiFXAlert VERBOSE MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 5 is about to try and open file index 0 of configindex 0
+2024-10-24 14:54:31,972 DiFXAlert VERBOSE MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 7 is about to try and open file index 0 of configindex 0
+2024-10-24 14:54:31,973 DiFXAlert VERBOSE MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 2 is about to try and open file index 0 of configindex 0
+2024-10-24 14:54:31,973 DiFXAlert VERBOSE MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 1 is about to try and open file index 0 of configindex 0
+2024-10-24 14:54:31,973 DiFXAlert VERBOSE MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 4 is about to try and open file index 0 of configindex 0
+2024-10-24 14:54:31,974 DiFXAlert VERBOSE MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 6 is about to try and open file index 0 of configindex 0
+2024-10-24 14:54:31,974 DiFXAlert VERBOSE MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 3 is about to try and open file index 0 of configindex 0
+2024-10-24 14:54:31,974 DiFXAlert VERBOSE MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 8 is about to try and open file index 0 of configindex 0
+2024-10-24 14:54:31,975 DiFXAlert VERBOSE MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputinput.bad() is 0, input.fail() is 1
+2024-10-24 14:54:31,975 DiFXAlert ERROR   MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputCannot open baseband data file /fred/oz002/adeller/packages/src/askapdifxtest/ak16.p1.codif
+2024-10-24 14:54:32,001 DiFXAlert VERBOSE MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputinput.bad() is 0, input.fail() is 1
+2024-10-24 14:54:32,002 DiFXAlert ERROR   MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputCannot open baseband data file /fred/oz002/adeller/packages/src/askapdifxtest/ak16.p0.codif
+2024-10-24 14:54:32,002 DiFXAlert VERBOSE MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputinput.bad() is 0, input.fail() is 1
+2024-10-24 14:54:32,002 DiFXAlert ERROR   MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputCannot open baseband data file /fred/oz002/adeller/packages/src/askapdifxtest/ak26.p1.codif
+2024-10-24 14:54:32,002 DiFXAlert VERBOSE MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputinput.bad() is 0, input.fail() is 1
+2024-10-24 14:54:32,002 DiFXAlert ERROR   MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputCannot open baseband data file /fred/oz002/adeller/packages/src/askapdifxtest/ak06.p1.codif
+2024-10-24 14:54:32,002 DiFXAlert VERBOSE MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputinput.bad() is 0, input.fail() is 1
+2024-10-24 14:54:32,002 DiFXAlert VERBOSE MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputinput.bad() is 0, input.fail() is 1
+2024-10-24 14:54:32,002 DiFXAlert ERROR   MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputCannot open baseband data file /fred/oz002/adeller/packages/src/askapdifxtest/ak36.p0.codif
+2024-10-24 14:54:32,002 DiFXAlert VERBOSE MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputinput.bad() is 0, input.fail() is 1
+2024-10-24 14:54:32,003 DiFXAlert ERROR   MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputCannot open baseband data file /fred/oz002/adeller/packages/src/askapdifxtest/ak06.p0.codif
+2024-10-24 14:54:32,003 DiFXAlert VERBOSE MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputinput.bad() is 0, input.fail() is 1
+2024-10-24 14:54:32,003 DiFXAlert ERROR   MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputCannot open baseband data file /fred/oz002/adeller/packages/src/askapdifxtest/ak36.p1.codif
+2024-10-24 14:54:32,003 DiFXAlert VERBOSE MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 8 is about to try and open file index 1 of configindex 0
+2024-10-24 14:54:32,003 DiFXAlert VERBOSE MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 3 is about to try and open file index 1 of configindex 0
+2024-10-24 14:54:32,003 DiFXAlert INFO    MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 3 is exiting because fileindex is 1, while confignumfiles is 1
+2024-10-24 14:54:32,003 DiFXAlert VERBOSE MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 6 is about to try and open file index 1 of configindex 0
+2024-10-24 14:54:32,003 DiFXAlert INFO    MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 6 is exiting because fileindex is 1, while confignumfiles is 1
+2024-10-24 14:54:32,003 DiFXAlert VERBOSE MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 4 is about to try and open file index 1 of configindex 0
+2024-10-24 14:54:32,003 DiFXAlert INFO    MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 4 is exiting because fileindex is 1, while confignumfiles is 1
+2024-10-24 14:54:32,004 DiFXAlert ERROR   MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputCannot open baseband data file /fred/oz002/adeller/packages/src/askapdifxtest/ak26.p0.codif
+2024-10-24 14:54:32,004 DiFXAlert VERBOSE MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 5 is about to try and open file index 1 of configindex 0
+2024-10-24 14:54:32,004 DiFXAlert VERBOSE MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 2 is about to try and open file index 1 of configindex 0
+2024-10-24 14:54:32,004 DiFXAlert INFO    MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 2 is exiting because fileindex is 1, while confignumfiles is 1
+2024-10-24 14:54:32,004 DiFXAlert VERBOSE MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 1 is about to try and open file index 1 of configindex 0
+2024-10-24 14:54:32,004 DiFXAlert INFO    MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 1 is exiting because fileindex is 1, while confignumfiles is 1
+2024-10-24 14:54:32,004 DiFXAlert VERBOSE MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 7 is about to try and open file index 1 of configindex 0
+2024-10-24 14:54:32,004 DiFXAlert INFO    MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 7 is exiting because fileindex is 1, while confignumfiles is 1
+2024-10-24 14:54:32,004 DiFXAlert INFO    MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 8 is exiting because fileindex is 1, while confignumfiles is 1
+2024-10-24 14:54:32,004 DiFXAlert SEVERE  MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputCouldn't find any valid data - will be shutting down gracefully!!!
+2024-10-24 14:54:32,005 DiFXAlert SEVERE  MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputCouldn't find any valid data - will be shutting down gracefully!!!
+2024-10-24 14:54:32,039 DiFXAlert VERBOSE MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 3's readthread is exiting!!! Filecount was 2, confignumfiles was 1, dataremaining was 0, keepreading was 0
+2024-10-24 14:54:32,039 DiFXAlert VERBOSE MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 3 finished initialising memory buffer
+2024-10-24 14:54:32,039 DiFXAlert INFO    MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 5 is exiting because fileindex is 1, while confignumfiles is 1
+2024-10-24 14:54:32,039 DiFXAlert SEVERE  MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputCouldn't find any valid data - will be shutting down gracefully!!!
+2024-10-24 14:54:32,039 DiFXAlert SEVERE  MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputCouldn't find any valid data - will be shutting down gracefully!!!
+2024-10-24 14:54:32,039 DiFXAlert VERBOSE MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 2's readthread is exiting!!! Filecount was 2, confignumfiles was 1, dataremaining was 0, keepreading was 0
+2024-10-24 14:54:32,039 DiFXAlert VERBOSE MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 2 finished initialising memory buffer
+2024-10-24 14:54:32,040 DiFXAlert SEVERE  MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputCouldn't find any valid data - will be shutting down gracefully!!!
+2024-10-24 14:54:32,040 DiFXAlert VERBOSE MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 4's readthread is exiting!!! Filecount was 2, confignumfiles was 1, dataremaining was 0, keepreading was 0
+2024-10-24 14:54:32,040 DiFXAlert VERBOSE MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 4 finished initialising memory buffer
+2024-10-24 14:54:32,040 DiFXAlert SEVERE  MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputCouldn't find any valid data - will be shutting down gracefully!!!
+2024-10-24 14:54:32,040 DiFXAlert VERBOSE MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 6's readthread is exiting!!! Filecount was 2, confignumfiles was 1, dataremaining was 0, keepreading was 0
+2024-10-24 14:54:32,040 DiFXAlert VERBOSE MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 6 finished initialising memory buffer
+2024-10-24 14:54:32,040 DiFXAlert SEVERE  MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputCouldn't find any valid data - will be shutting down gracefully!!!
+2024-10-24 14:54:32,040 DiFXAlert VERBOSE MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 1's readthread is exiting!!! Filecount was 2, confignumfiles was 1, dataremaining was 0, keepreading was 0
+2024-10-24 14:54:32,041 DiFXAlert VERBOSE MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 1 finished initialising memory buffer
+2024-10-24 14:54:32,041 DiFXAlert SEVERE  MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputCouldn't find any valid data - will be shutting down gracefully!!!
+2024-10-24 14:54:32,041 DiFXAlert VERBOSE MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 7's readthread is exiting!!! Filecount was 2, confignumfiles was 1, dataremaining was 0, keepreading was 0
+2024-10-24 14:54:32,041 DiFXAlert VERBOSE MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 7 finished initialising memory buffer
+2024-10-24 14:54:32,041 DiFXAlert VERBOSE MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 8's readthread is exiting!!! Filecount was 2, confignumfiles was 1, dataremaining was 0, keepreading was 0
+2024-10-24 14:54:32,041 DiFXAlert VERBOSE MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 8 finished initialising memory buffer
+2024-10-24 14:54:32,041 DiFXAlert VERBOSE MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 5's readthread is exiting!!! Filecount was 2, confignumfiles was 1, dataremaining was 0, keepreading was 0
+2024-10-24 14:54:32,041 DiFXAlert VERBOSE MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 5 finished initialising memory buffer
+2024-10-24 14:54:32,106 DiFXAlert INFO    MPI[ 9] dave1     askapdifxtest_1 askapdifxtest_1.inputCore 9 PROCESSTHREAD 1/2 is about to start processing
+2024-10-24 14:54:32,106 DiFXAlert VERBOSE MPI[ 9] dave1     askapdifxtest_1 askapdifxtest_1.inputEstimated memory usage by Core is now 21.3119 MB
+2024-10-24 14:54:32,106 DiFXAlert INFO    MPI[10] dave1     askapdifxtest_1 askapdifxtest_1.inputCore 10 PROCESSTHREAD 1/2 is about to start processing
+2024-10-24 14:54:32,106 DiFXAlert VERBOSE MPI[10] dave1     askapdifxtest_1 askapdifxtest_1.inputEstimated memory usage by Core is now 21.3119 MB
+2024-10-24 14:54:33,145 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 0 to write out time 0
+2024-10-24 14:54:33,145 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities locked for accumulation, most recent index is 1
+2024-10-24 14:54:33,145 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input1/8 visibilities ready to write out from 0
+2024-10-24 14:54:33,145 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed is 50/50/50, mincoreindex is 0, maxcoreindex is 0
+2024-10-24 14:54:33,146 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 0 is incrementing, since currentsubints = 100
+2024-10-24 14:54:33,146 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputThe approximate mjd/seconds is 60597/82577
+2024-10-24 14:54:34,229 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 1 to write out time 1.3824
+2024-10-24 14:54:34,229 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities locked for accumulation, most recent index is 2
+2024-10-24 14:54:34,229 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input1/8 visibilities ready to write out from 1
+2024-10-24 14:54:34,229 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed is 99/100/101, mincoreindex is 0, maxcoreindex is 1
+2024-10-24 14:54:34,230 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 1 is incrementing, since currentsubints = 100
+2024-10-24 14:54:34,230 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputThe approximate mjd/seconds is 60597/82578
+2024-10-24 14:54:35,351 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 2 to write out time 2.7648
+2024-10-24 14:54:35,351 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities locked for accumulation, most recent index is 3
+2024-10-24 14:54:35,351 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input1/8 visibilities ready to write out from 2
+2024-10-24 14:54:35,351 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed is 149/150/151, mincoreindex is 0, maxcoreindex is 1
+2024-10-24 14:54:35,352 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 2 is incrementing, since currentsubints = 100
+2024-10-24 14:54:35,352 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputThe approximate mjd/seconds is 60597/82579
+2024-10-24 14:54:36,469 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 3 to write out time 4.1472
+2024-10-24 14:54:36,469 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities locked for accumulation, most recent index is 4
+2024-10-24 14:54:36,469 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input1/8 visibilities ready to write out from 3
+2024-10-24 14:54:36,470 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 3 is incrementing, since currentsubints = 100
+2024-10-24 14:54:36,470 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputThe approximate mjd/seconds is 60597/82581
+2024-10-24 14:54:36,470 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed is 200/201/202, mincoreindex is 0, maxcoreindex is 1
+2024-10-24 14:54:37,634 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 4 to write out time 5.5296
+2024-10-24 14:54:37,635 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 4 is incrementing, since currentsubints = 100
+2024-10-24 14:54:37,635 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputThe approximate mjd/seconds is 60597/82582
+2024-10-24 14:54:37,635 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities locked for accumulation, most recent index is 5
+2024-10-24 14:54:37,635 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities ready to write out from 5
+2024-10-24 14:54:37,635 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed is 251/252/253, mincoreindex is 0, maxcoreindex is 1
+2024-10-24 14:54:38,690 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 5 to write out time 6.912
+2024-10-24 14:54:38,691 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 5 is incrementing, since currentsubints = 100
+2024-10-24 14:54:38,691 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputThe approximate mjd/seconds is 60597/82583
+2024-10-24 14:54:38,691 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities locked for accumulation, most recent index is 6
+2024-10-24 14:54:38,691 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities ready to write out from 6
+2024-10-24 14:54:38,691 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed is 299/300/301, mincoreindex is 0, maxcoreindex is 1
+2024-10-24 14:54:39,803 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 6 to write out time 8.2944
+2024-10-24 14:54:39,803 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 6 is incrementing, since currentsubints = 100
+2024-10-24 14:54:39,803 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputThe approximate mjd/seconds is 60597/82585
+2024-10-24 14:54:39,803 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities locked for accumulation, most recent index is 7
+2024-10-24 14:54:39,804 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities ready to write out from 7
+2024-10-24 14:54:39,804 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed is 347/350/353, mincoreindex is 0, maxcoreindex is 1
+2024-10-24 14:54:40,934 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 7 to write out time 9.6768
+2024-10-24 14:54:40,935 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 7 is incrementing, since currentsubints = 100
+2024-10-24 14:54:40,935 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputThe approximate mjd/seconds is 60597/82586
+2024-10-24 14:54:40,935 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities locked for accumulation, most recent index is 0
+2024-10-24 14:54:40,935 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities ready to write out from 0
+2024-10-24 14:54:40,935 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed is 398/400.5/403, mincoreindex is 0, maxcoreindex is 1
+2024-10-24 14:54:40,935 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed in last 11.0592 seconds is 398/400.5/403, mincoreindex is 0, maxcoreindex is 1
+2024-10-24 14:54:42,071 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 0 to write out time 11.0592
+2024-10-24 14:54:42,071 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 0 is incrementing, since currentsubints = 100
+2024-10-24 14:54:42,071 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputThe approximate mjd/seconds is 60597/82588
+2024-10-24 14:54:42,071 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities locked for accumulation, most recent index is 1
+2024-10-24 14:54:42,072 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities ready to write out from 1
+2024-10-24 14:54:42,072 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed is 449/451/453, mincoreindex is 0, maxcoreindex is 1
+2024-10-24 14:54:43,201 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 1 to write out time 12.4416
+2024-10-24 14:54:43,202 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 1 is incrementing, since currentsubints = 100
+2024-10-24 14:54:43,202 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputThe approximate mjd/seconds is 60597/82589
+2024-10-24 14:54:43,202 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities locked for accumulation, most recent index is 2
+2024-10-24 14:54:43,202 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities ready to write out from 2
+2024-10-24 14:54:43,202 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed is 498/500.5/503, mincoreindex is 0, maxcoreindex is 1
+2024-10-24 14:54:44,332 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 2 to write out time 13.824
+2024-10-24 14:54:44,333 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 2 is incrementing, since currentsubints = 100
+2024-10-24 14:54:44,333 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputThe approximate mjd/seconds is 60597/82590
+2024-10-24 14:54:44,333 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities locked for accumulation, most recent index is 3
+2024-10-24 14:54:44,333 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities ready to write out from 3
+2024-10-24 14:54:44,333 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed is 547/550/553, mincoreindex is 0, maxcoreindex is 1
+2024-10-24 14:54:45,513 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 3 to write out time 15.2064
+2024-10-24 14:54:45,514 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 3 is incrementing, since currentsubints = 100
+2024-10-24 14:54:45,514 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputThe approximate mjd/seconds is 60597/82592
+2024-10-24 14:54:45,514 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities locked for accumulation, most recent index is 4
+2024-10-24 14:54:45,514 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities ready to write out from 4
+2024-10-24 14:54:45,515 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed is 596/600/604, mincoreindex is 0, maxcoreindex is 1
+2024-10-24 14:54:46,678 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 4 to write out time 16.5888
+2024-10-24 14:54:46,678 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 4 is incrementing, since currentsubints = 100
+2024-10-24 14:54:46,679 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputThe approximate mjd/seconds is 60597/82593
+2024-10-24 14:54:46,679 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities locked for accumulation, most recent index is 5
+2024-10-24 14:54:46,679 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities ready to write out from 5
+2024-10-24 14:54:46,679 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed is 644/651.5/659, mincoreindex is 0, maxcoreindex is 1
+2024-10-24 14:54:47,835 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 5 to write out time 17.9712
+2024-10-24 14:54:47,835 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 5 is incrementing, since currentsubints = 100
+2024-10-24 14:54:47,836 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputThe approximate mjd/seconds is 60597/82594
+2024-10-24 14:54:47,836 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities locked for accumulation, most recent index is 6
+2024-10-24 14:54:47,836 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities ready to write out from 6
+2024-10-24 14:54:47,836 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed is 692/700/708, mincoreindex is 0, maxcoreindex is 1
+2024-10-24 14:54:48,290 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputFXMANAGER: Sending terminate signals
+2024-10-24 14:54:48,290 DiFXAlert INFO    MPI[10] dave1     askapdifxtest_1 askapdifxtest_1.inputPROCESS 10/1 process thread exiting!!!
+2024-10-24 14:54:48,290 DiFXAlert INFO    MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 2 will terminate next round! This is probably due to a terminate signal being received.
+2024-10-24 14:54:48,291 DiFXAlert VERBOSE MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 2 terminating
+2024-10-24 14:54:48,291 DiFXAlert INFO    MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 4 will terminate next round! This is probably due to a terminate signal being received.
+2024-10-24 14:54:48,291 DiFXAlert VERBOSE MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 4 terminating
+2024-10-24 14:54:48,291 DiFXAlert INFO    MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 6 will terminate next round! This is probably due to a terminate signal being received.
+2024-10-24 14:54:48,291 DiFXAlert VERBOSE MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 6 terminating
+2024-10-24 14:54:48,291 DiFXAlert INFO    MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 8 will terminate next round! This is probably due to a terminate signal being received.
+2024-10-24 14:54:48,292 DiFXAlert VERBOSE MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 8 terminating
+2024-10-24 14:54:48,292 DiFXAlert INFO    MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 1 will terminate next round! This is probably due to a terminate signal being received.
+2024-10-24 14:54:48,292 DiFXAlert VERBOSE MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 1 terminating
+2024-10-24 14:54:48,292 DiFXAlert INFO    MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 3 will terminate next round! This is probably due to a terminate signal being received.
+2024-10-24 14:54:48,292 DiFXAlert VERBOSE MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 3 terminating
+2024-10-24 14:54:48,292 DiFXAlert INFO    MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 7 will terminate next round! This is probably due to a terminate signal being received.
+2024-10-24 14:54:48,293 DiFXAlert VERBOSE MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 7 terminating
+2024-10-24 14:54:48,293 DiFXAlert INFO    MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 5 will terminate next round! This is probably due to a terminate signal being received.
+2024-10-24 14:54:48,293 DiFXAlert VERBOSE MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputDatastream 5 terminating
+2024-10-24 14:54:48,325 DiFXAlert INFO    MPI[ 9] dave1     askapdifxtest_1 askapdifxtest_1.inputPROCESS 9/1 process thread exiting!!!
+2024-10-24 14:54:48,355 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 6 to write out time 19.3536
+2024-10-24 14:54:48,356 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputVis. 6 is incrementing, since currentsubints = 47
+2024-10-24 14:54:48,356 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputThe approximate mjd/seconds is 60597/82596
+2024-10-24 14:54:48,356 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities locked for accumulation, most recent index is 7
+2024-10-24 14:54:48,356 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.input0/8 visibilities ready to write out from 7
+2024-10-24 14:54:48,356 DiFXAlert VERBOSE MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMin/Mean/Max number of subints processed is 714/723.5/733, mincoreindex is 0, maxcoreindex is 1
+2024-10-24 14:54:48,357 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputFxManager is finished
+2024-10-24 14:54:48,357 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputTotal wallclock time was **16.4009** seconds
+2024-10-24 14:54:48,394 DiFXAlert INFO    MPI[10] dave1     askapdifxtest_1 askapdifxtest_1.inputPROCESS 10/0 process thread exiting!!!
+2024-10-24 14:54:48,399 DiFXAlert INFO    MPI[ 9] dave1     askapdifxtest_1 askapdifxtest_1.inputPROCESS 9/0 process thread exiting!!!
+2024-10-24 14:54:48,795 DiFXAlert INFO    MPI[ 9] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI ID 9 says BYE!
+2024-10-24 14:54:48,812 DiFXAlert INFO    MPI[ 4] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI ID 4 says BYE!
+2024-10-24 14:54:48,815 DiFXAlert INFO    MPI[ 3] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI ID 3 says BYE!
+2024-10-24 14:54:48,818 DiFXAlert INFO    MPI[ 7] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI ID 7 says BYE!
+2024-10-24 14:54:48,820 DiFXAlert INFO    MPI[ 1] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI ID 1 says BYE!
+2024-10-24 14:54:48,822 DiFXAlert INFO    MPI[ 5] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI ID 5 says BYE!
+2024-10-24 14:54:48,824 DiFXAlert INFO    MPI[ 2] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI ID 2 says BYE!
+2024-10-24 14:54:48,825 DiFXAlert INFO    MPI[10] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI ID 10 says BYE!
+2024-10-24 14:54:48,827 DiFXAlert INFO    MPI[ 8] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI ID 8 says BYE!
+2024-10-24 14:54:48,828 DiFXAlert INFO    MPI[ 6] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI ID 6 says BYE!
+2024-10-24 14:54:48,846 DiFXAlert INFO    MPI[ 0] dave1     askapdifxtest_1 askapdifxtest_1.inputMPI ID 0 says BYE!

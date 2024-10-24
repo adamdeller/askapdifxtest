@@ -1,0 +1,617 @@
+#  Template v2d file for DiFX correlation of craftfrb
+
+vex = askapdifxtest.vex
+
+startSeries = 1
+minLength = 1
+allowAllClockOffsets = True
+tweakIntTime = True
+exhaustiveAutocorrs = True
+
+visBufferLength = 8
+antennas = A0, A7, AF, AM
+ANTENNA A0
+{
+  name = ak06
+  clockOffset=0.955195
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=A0-P0,A0-P1
+}
+
+DATASTREAM A0-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak06.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM A0-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak06.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA A1
+{
+  name = ak07
+  clockOffset=-0.418811
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=A1-P0,A1-P1
+}
+
+DATASTREAM A1-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak07.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM A1-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak07.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA A2
+{
+  name = ak08
+  clockOffset=-1.884615
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=A2-P0,A2-P1
+}
+
+DATASTREAM A2-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak08.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM A2-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak08.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA A3
+{
+  name = ak11
+  clockOffset=0.225113
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=A3-P0,A3-P1
+}
+
+DATASTREAM A3-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak11.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM A3-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak11.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA A4
+{
+  name = ak13
+  clockOffset=1.039023
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=A4-P0,A4-P1
+}
+
+DATASTREAM A4-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak13.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM A4-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak13.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA A5
+{
+  name = ak14
+  clockOffset=-2.798861
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=A5-P0,A5-P1
+}
+
+DATASTREAM A5-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak14.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM A5-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak14.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA A6
+{
+  name = ak15
+  clockOffset=-6.017195
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=A6-P0,A6-P1
+}
+
+DATASTREAM A6-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak15.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM A6-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak15.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA A7
+{
+  name = ak16
+  clockOffset=-3.534635
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=A7-P0,A7-P1
+}
+
+DATASTREAM A7-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak16.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM A7-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak16.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA A8
+{
+  name = ak17
+  clockOffset=-3.677387
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=A8-P0,A8-P1
+}
+
+DATASTREAM A8-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak17.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM A8-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak17.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA A9
+{
+  name = ak18
+  clockOffset=-0.933613
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=A9-P0,A9-P1
+}
+
+DATASTREAM A9-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak18.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM A9-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak18.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA AA
+{
+  name = ak19
+  clockOffset=-0.404466
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=AA-P0,AA-P1
+}
+
+DATASTREAM AA-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak19.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM AA-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak19.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA AB
+{
+  name = ak20
+  clockOffset=1.536514
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=AB-P0,AB-P1
+}
+
+DATASTREAM AB-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak20.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM AB-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak20.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA AC
+{
+  name = ak21
+  clockOffset=0.813433
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=AC-P0,AC-P1
+}
+
+DATASTREAM AC-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak21.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM AC-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak21.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA AD
+{
+  name = ak24
+  clockOffset=-5.436612
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=AD-P0,AD-P1
+}
+
+DATASTREAM AD-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak24.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM AD-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak24.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA AE
+{
+  name = ak25
+  clockOffset=-4.427659
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=AE-P0,AE-P1
+}
+
+DATASTREAM AE-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak25.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM AE-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak25.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA AF
+{
+  name = ak26
+  clockOffset=-2.904857
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=AF-P0,AF-P1
+}
+
+DATASTREAM AF-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak26.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM AF-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak26.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA AG
+{
+  name = ak27
+  clockOffset=-7.059425
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=AG-P0,AG-P1
+}
+
+DATASTREAM AG-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak27.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM AG-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak27.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA AH
+{
+  name = ak28
+  clockOffset=-5.158959
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=AH-P0,AH-P1
+}
+
+DATASTREAM AH-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak28.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM AH-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak28.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA AI
+{
+  name = ak29
+  clockOffset=-2.510583
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=AI-P0,AI-P1
+}
+
+DATASTREAM AI-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak29.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM AI-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak29.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA AJ
+{
+  name = ak30
+  clockOffset=-2.926093
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=AJ-P0,AJ-P1
+}
+
+DATASTREAM AJ-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak30.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM AJ-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak30.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA AK
+{
+  name = ak33
+  clockOffset=-14.958304
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=AK-P0,AK-P1
+}
+
+DATASTREAM AK-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak33.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM AK-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak33.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA AL
+{
+  name = ak34
+  clockOffset=-25.477590
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=AL-P0,AL-P1
+}
+
+DATASTREAM AL-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak34.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM AL-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak34.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+ANTENNA AM
+{
+  name = ak36
+  clockOffset=-14.941173
+  clockRate=0
+  clockEpoch=57000.0
+  phaseCalInt=0
+  toneSelection=none
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+  datastreams=AM-P0,AM-P1
+}
+
+DATASTREAM AM-P0
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak36.p0.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+DATASTREAM AM-P1
+{
+  file = /fred/oz002/adeller/packages/src/askapdifxtest/ak36.p1.codif
+  format=CODIFC/27/8064/1
+  sampling=COMPLEX_DSB
+}
+
+# The nChan should never be less than 128.
+# For numbers of channels < 128, set specAvg so nChan/specAvg
+# gives the desired number of channels
+SETUP default
+{
+  tInt =  1.382400000
+  subintNS = 13824000
+  nFFTChan =    128
+  nChan =  128
+  doPolar = True # Full stokes
+}
+
+# This, along with SETUP default above, should always be done
+RULE default
+{
+  setup = default
+}
+
+#  SETUP place holders (commented)
+# SETUP askap.set {}
+
+# Sources (pointing centers) with recorded data but no offset pointing centers:
+SOURCE CRAFTSRC { }
+
+EOP 60596 { xPole=0.237250 yPole=0.386189 tai_utc=37 ut1_utc=0.061139 }
+EOP 60597 { xPole=0.237396 yPole=0.384596 tai_utc=37 ut1_utc=0.060640 }
+EOP 60598 { xPole=0.237512 yPole=0.383003 tai_utc=37 ut1_utc=0.059821 }
+EOP 60599 { xPole=0.237598 yPole=0.381412 tai_utc=37 ut1_utc=0.058794 }
+EOP 60600 { xPole=0.237656 yPole=0.379822 tai_utc=37 ut1_utc=0.057740 }
